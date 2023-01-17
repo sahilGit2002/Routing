@@ -1,0 +1,137 @@
+.header{
+    padding: 20px 0;
+    background-color: #000;
+}
+.logo{
+    color: #27a776;
+    transition: .3s;
+}
+.logo:hover{
+    transition: .3s;
+    color: #32cf93;
+}
+.camera{
+    font-size: 50px;
+    margin-right: 8px;
+    line-height: 0;
+}
+.header .logo h1{
+    font-size: 32px;
+    margin: 0;
+    font-weight: 400;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+    position: unset !important;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.navbar ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 400;
+    transition: .3s;
+    color: rgba(255, 255, 255, 0.5);
+}
+.navbar ul li a:hover{
+    color: white;
+    transition: .3s;
+}
+.navbar .active{
+    color: white;
+}
+.header .header-social-links{
+    padding-right: 15px !important;
+}
+.header .header-social-links a{
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 15px;
+    display: inline-block;
+    transition: .3s;
+    font-size: 20px;
+}
+.header .header-social-links a:hover{
+    color: white;
+}
+.menu-icon{
+    color: white !important;
+    font-size: 35px !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .mobile-menu{
+        position: absolute !important;
+        top: 100% !important;
+        left: 0px !important;
+        width: 100% !important;
+        background-color: white !important;
+        z-index: 2 !important;
+        /* color: black; */
+    }
+    .navbar ul li a{
+        color: black;
+    }
+    .navbar ul li a:hover{
+        color: darkgrey;
+    }
+}
+@media screen and  (max-width: 767px) {
+    .mobile-menu{
+        position: absolute !important;
+        top: 100% !important;
+        left: 0px !important;
+        width: 100% !important;
+        background-color: white !important;
+        z-index: 2 !important;
+        /* color: black; */
+    }
+    .navbar ul li a{
+        color: black;
+    }
+    .navbar ul li a:hover{
+        color: darkgrey;
+    }
+    .header .logo h1{
+        font-size: 24px;
+    }
+    .camera{
+        font-size: 32px;
+    }
+    .header .header-social-links a{
+        padding-left: 8px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .header .logo h1{
+        font-size: 14px !important;
+    }
+    .camera{
+        font-size: 28px;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .menu-icon{
+        font-size: 24px !important;
+    }
+    .header .header-social-links a{
+        padding-left: 5px;
+        font-size: 16px;
+    }
+    .header .header-social-links{
+        padding-right: 3px !important;
+    }
+}

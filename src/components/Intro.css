@@ -1,0 +1,85 @@
+.hero{
+    background-color: #000;
+    padding: 80px 0 60px 0;
+}
+.text-box{
+    padding: 0 30px 0 30px;
+}
+.hero h2{
+    margin: 0 0 10px 0;
+    font-size: 38px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+span{
+    position: relative;
+    z-index: 1;
+    padding: 0 5px;
+    display: inline-block;
+}
+.hero h2 span::before{
+    content: '';
+    position: absolute;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #27a776;
+    z-index: -1;
+}
+.hero p{
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.btn-get-start{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: .3s;
+    color: white;
+    background: #27a776;
+}
+.btn-get-start:hover{
+    background-color: #2cbc85;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero h2{
+        font-size: 32px;
+    }
+    .text-box{
+        padding: 0 16px 0 16px;
+    }
+}
+
+
+/* About Us Page Intro Css */
+
+.page-header{
+    padding: 40px 0 60px 0;
+}
+.page-header h2{
+    font-size: 56px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.page-header p{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+    .page-header h2{
+        font-size: 36px;
+    }   
+}

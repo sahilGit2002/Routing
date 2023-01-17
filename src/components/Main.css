@@ -1,0 +1,62 @@
+.gallary{
+    margin-top: 40px;
+}
+.gallary-item{
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.img-set{
+    max-width: 100%;
+    height: auto;
+    transition: .3s;
+}
+.gallary .gallary-item:hover .img-set{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.details-link{
+    font-size: 16px;
+    color: white;
+    transition: .3s;
+    margin: 0 8px 0 8px;
+    z-index: 2;
+}
+.preview-link:hover, .details-link:hover{
+    color: white;
+    transition: .3s;
+}
+.ant-image-mask{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: .3s;
+    background: rgba(0, 0, 0, 0.6);
+}
+.gallary .gallary-item:hover .ant-image-mask{
+    opacity: 1;
+}
+:where(.css-dev-only-do-not-override-k83k30)[class^="ant-image"], :where(.css-dev-only-do-not-override-k83k30)[class*=" ant-image"] {
+
+    font-size: 16px;
+}
+.anticon svg{
+    margin-bottom: 6px;
+}
+.gallary-links{
+    position: absolute;
+    bottom: 65px;
+    left: 99px;
+    opacity: 0;
+    transition: .3s;
+}
+.detail-icon{
+    font-size: 20px;
+    color: white;
+    margin-right: 6px;
+}
+.gallary-item:hover .gallary-links{
+    opacity: 1;
+    transition: .3s;
+}

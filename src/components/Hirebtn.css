@@ -1,0 +1,28 @@
+.btn-get-start{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: .3s;
+    color: white;
+    background: #27a776;
+}
+.btn-get-start:hover{
+    background-color: #2cbc85;
+    color: white;
+}
+button[type=submit]{
+    background: #27a776;
+    border: 0;
+    padding: 10px 35px;
+    color: white;
+    transition: .4s;
+    border-radius: 4px;
+}
+button[type=submit]:hover{
+    background-color: rgba(39, 167, 118, 0.8);
+}
