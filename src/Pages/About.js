@@ -1,6 +1,6 @@
 import { AboutIntro } from "../components/Intro";
 import './About.css';
-import { BiChevronRight } from "react-icons/bi";
+// import { BiChevronRight } from "react-icons/bi";
 import Testimonial from  "../components/Testimonial";
 
 function About() {
@@ -24,22 +24,22 @@ function About() {
                                     <div className="col-lg-6">
                                         <ul className="p-0">
                                             <li>
-                                                <BiChevronRight className="right-arrow"/>
+                                                {/* <BiChevronRight className="right-arrow"/> */}
                                                 <strong className="text-white">Birthday :</strong>
                                                 <span className="p-0 text-white">1 May 1995</span>
                                             </li>
                                             <li>
-                                                <BiChevronRight className="right-arrow"/>
+                                                {/* <BiChevronRight className="right-arrow"/> */}
                                                 <strong className="text-white">Website :</strong>
                                                 <span className="p-0 text-white">www.example.com</span>
                                             </li>
                                             <li>
-                                                <BiChevronRight className="right-arrow"/>
+                                                {/* <BiChevronRight className="right-arrow"/> */}
                                                 <strong className="text-white">Phone :</strong>
                                                 <span className="p-0 text-white">+123 456 7890</span>
                                             </li>
                                             <li>
-                                                <BiChevronRight className="right-arrow"/>
+                                                {/* <BiChevronRight className="right-arrow"/> */}
                                                 <strong className="text-white">City :</strong>
                                                 <span className="p-0 text-white">New York, USA</span>
                                             </li>
@@ -48,22 +48,22 @@ function About() {
                                     <div className="col-lg-6">
                                         <ul className="p-0">
                                             <li>
-                                                <BiChevronRight className="right-arrow"/>
+                                                {/* <BiChevronRight className="right-arrow"/> */}
                                                 <strong className="text-white">Age :</strong>
                                                 <span className="p-0 text-white">30</span>
                                             </li>
                                             <li>
-                                                <BiChevronRight className="right-arrow"/>
+                                                {/* <BiChevronRight className="right-arrow"/> */}
                                                 <strong className="text-white">Degree :</strong>
                                                 <span className="p-0 text-white">Master</span>
                                             </li>
                                             <li>
-                                                <BiChevronRight className="right-arrow"/>
+                                                {/* <BiChevronRight className="right-arrow"/> */}
                                                 <strong className="text-white">Email :</strong>
                                                 <span className="p-0 text-white">email@example.com</span>
                                             </li>
                                             <li>
-                                                <BiChevronRight className="right-arrow"/>
+                                                {/* <BiChevronRight className="right-arrow"/> */}
                                                 <strong className="text-white">Freelance :</strong>
                                                 <span className="p-0 text-white">Available</span>
                                             </li>
