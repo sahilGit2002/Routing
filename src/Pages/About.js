@@ -1,6 +1,6 @@
 import { AboutIntro } from "../components/Intro";
 import './About.css';
-import { BiChevronRight } from "react-icons/bi"
+import { BiChevronRight } from "react-icons/bi";
 import Testimonial from  "../components/Testimonial";
 
 function About() {
